@@ -1,0 +1,57 @@
+body{
+    background-color: #444;
+}
+#display{
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+    border: 2px solid #000;
+    width: 40%;
+    height: 300px;
+    flex-direction: column;  
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#values{
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+}
+.dots{
+    font-size: 40px;
+    vertical-align: top;
+}
+#btns{
+    margin: auto;
+    margin-top: 20px;
+    flex-grow: 1;
+}
+.number{
+    display: inline-block;
+    padding-top: 8px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    margin-right: 3px;
+    border: 2px solid;
+    font-size: 32px;
+    text-align: center;
+}
+[type = button]{
+    height: 35px;
+    width: 80px;
+    margin-right: 3px;
+    border-radius: 5px;
+    border: 1px solid;   
+    cursor: pointer;         
+}
+.start{
+    background-color: rgba(0, 255, 0, 0.336);
+}
+.stop{
+    background-color: rgba(255, 0, 0, 0.336);
+}
+.reset{
+    background-color: rgba(255, 255, 0, 0.336);
+}
